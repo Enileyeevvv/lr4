@@ -1,5 +1,9 @@
-body {
-    background: url("images/background.png") no-repeat fixed;
+.aboutme {
+    width: 80vw;
+    margin-left: 10vw;
+    background: url("images/background.png") no-repeat;
+    background-position-y: 20px;
+    padding-bottom:200px;
 }
 
 .logo {
@@ -82,8 +86,8 @@ h1 {
         background:#00b893;
         transition: .3s;
 }
-h4 {
-    margin: 200px 0px 0px 370px;
+.block2 {
+    margin: 200px 0px 0px 550px;
     color: #353535;
     font-family: 'Roboto Slab', sans-serif;
     font-size: 30px;
@@ -94,56 +98,55 @@ hr {
     background-color: #00b893;
     height: 2px;
     width: 75px;
-    margin: 10px 0px 0px 370px;
+    margin: 10px 0px 0px 550px;
 }
 
 .first {
     background: none;
-    margin: 40px 0px 0px 370px;
+    margin: 40px 0px 0px 550px;
     width: 500px;
     color: #353535;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 39px;
+    font-size: 25px;
 }
 
 .aboutmefirst {
     border: none;
     background-color: #00b893;
     height: 5px;
-    width: 500px;
-    margin: -10px 0px 0px 370px;
-    opacity: 0.4;
+    width: 315px;
+    margin: -6px 0px 0px 550px;
+    opacity: 0.3;
 }
 
 .second {
     background: none;
-    margin: 10px 0px 0px 370px;
+    margin: 10px 0px 0px 550px;
     width: 710px;
     color: #353535;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 39px;
+    font-size: 25px;
 }
 
 .aboutmesecond {
     border: none;
     background-color: #00b893;
     height: 5px;
-    width: 710px;
-    margin: -10px 0px 0px 370px;
-    opacity: 0.4;
+    width: 450px;
+    margin: -6px 0px 0px 550px;
+    opacity: 0.3;
 }
 
 .textaboutme {
     background: none;
-    width: 800px;
-    margin: 40px 0px 0px 370px;
+    width: 490px;
+    margin: 40px 0px 0px 550px;
     color: #aaaaaa;
-    font-size: 16px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-size: 11px;
 }
 
 .purple {
-    margin: -290px 0px 0px 1200px;
+    margin: -310px 0px 0px 1200px;
     height: 200px;
     width: 200px;
     border-radius: 250px;
@@ -190,4 +193,76 @@ hr {
 .red p {
     padding-top: 60px;
     margin-bottom: 8px;
+}
+.block3bg {
+    width: 80vw;
+    margin: 10vw;
+    height: 900px;
+    background: #f5f6fb
+}
+.block3 {
+    padding-top: 100px;
+    text-align: center;
+    color: #353535;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 40px;
+}
+.MyProvideServices {
+    background-color: #00b893;
+    height: 5px;
+    width: 385px;
+    margin: -45px 0px 0px 575px;
+    opacity: 0.3;
+}
+.third-1 {
+    margin: 60px 0px 0px 340px;
+    width: 290px;
+    height: 290px;
+    background:white;
+}
+.third-2 {
+    margin: 20px 0px 0px 340px;
+    width: 290px;
+    height: 290px;
+    background:white;
+}
+.third-3 {
+    margin: -600px 0px 0px 650px;
+    width: 290px;
+    height: 290px;
+    background:white;
+}
+.third-4 {
+    margin: 20px 0px 0px 650px;
+    width: 290px;
+    height: 290px;
+    background:white;
+}
+.third-5 {
+    margin: -600px 0px 0px 960px;
+    width: 290px;
+    height: 290px;
+    background:white;
+}
+.third-6 {
+    margin: 20px 0px 0px 960px;
+    width: 290px;
+    height: 290px;
+    background:white;
+}
+.pic {
+    margin: 30px;
+}
+.nu {
+    margin: 5px 0px 0px 30px;
+    color: #555555;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text3 {
+    margin: 15px 0px 0px 30px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    color: #aaaaaa;
 }
