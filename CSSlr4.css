@@ -266,3 +266,52 @@ hr {
     font-size: 14px;
     color: #aaaaaa;
 }
+.block4bg {
+    width: 80vw;
+    margin: 10vw;
+    height: 600px;
+    background: #0db996;
+}
+.block4 {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 40px;
+}
+.Softwareskill {
+    background-color:white;
+    height: 5px;
+    width: 257px;
+    margin: -45px 0px 0px 640px;
+    opacity: 0.2;
+}
+
+.pg1 {
+    margin: 100px 0px 0px 340px;
+}
+.pg2 {
+    margin: 50px 0px 0px 340px;
+}
+.pg3 {
+    margin: 50px 0px 0px 340px;
+}
+.pg4 {
+    margin: -272px 0px 0px 840px;
+}
+.pg5 {
+    margin: 50px 0px 0px 840px;
+}
+.pg6 {
+    margin: 50px 0px 0px 840px;
+}
+progress {
+    width: 350px;
+    height: 10px;
+    border-radius: 400px;
+    opacity: 1;
+}
+.np{
+    color: white;
+    font-family: 'Roboto Slab', sans-serif;
+}
