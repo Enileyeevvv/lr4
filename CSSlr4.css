@@ -13,14 +13,13 @@
     margin: 50px 0px 0px 370px;
 }
 
-ul {
+.navi {
     height: 40px;
     width: 750px;
     margin: -35px 370px 0px 700px;
     padding: 1px;
 }
-
-li {
+.navili {
     display: inline;
     padding: 25px;
     font-family: 'Roboto Slab', sans-serif;
@@ -211,7 +210,7 @@ hr {
     background-color: #00b893;
     height: 5px;
     width: 385px;
-    margin: -45px 0px 0px 575px;
+    margin: -45px 0px 0px 660px;
     opacity: 0.3;
 }
 .third-1 {
@@ -283,35 +282,174 @@ hr {
     background-color:white;
     height: 5px;
     width: 257px;
-    margin: -45px 0px 0px 640px;
+    margin: -45px 0px 0px 725px;
     opacity: 0.2;
 }
-
-.pg1 {
-    margin: 100px 0px 0px 340px;
+.progress-wrapper {
+    margin: 50px 0px 50px 340px;
+    width: 100px;
+    height: 7px;
+    background-color:white;
 }
-.pg2 {
-    margin: 50px 0px 0px 340px;
+.progress-wrapper .handler {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    display: block;
+    background: var(--white);
 }
-.pg3 {
-    margin: 50px 0px 0px 340px;
-}
-.pg4 {
-    margin: -272px 0px 0px 840px;
-}
-.pg5 {
-    margin: 50px 0px 0px 840px;
-}
-.pg6 {
-    margin: 50px 0px 0px 840px;
-}
-progress {
-    width: 350px;
-    height: 10px;
-    border-radius: 400px;
-    opacity: 1;
-}
-.np{
+.progress-wrapper .handler::before {
+    content: attr(data-state)"%";
     color: white;
+}
+.progress-state {
+    width: 100px;
+    height: 7px;
+    background-color:white;
+}
+.progress-state::before {
+    content: attr(data-descr);
+    color: white;
+}
+.fifthz {
+    background: none;
+    margin: 40px 0px 0px 530px;
+    width: 500px;
+    color: #353535;
     font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
+}
+.Latestproject {
+    background-color: #00b893;
+    height: 5px;
+    width: 200px;
+    margin: -7px 0px 0px 530px;
+    opacity: 0.3;
+}
+.project {
+    margin: 10px 0px 0px 530px;
+}
+.projects {
+    height: 40px;
+    width: 750px;
+    padding: 0px;
+}
+.projectname {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.projectname:hover {
+    color: #00b893;
+    transition: .3s;
+}
+.pjn {
+    text-align:center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.pjc {
+    text-align:center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12px;
+    margin-top: -30px;
+}
+.text5 {
+    text-align:center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+}
+.rating {
+    padding-top: 50px;
+    text-align:center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+}
+.fifth-1 {
+    margin: 60px 0px 0px 530px;
+    width: 290px;
+    height: 290px;
+    background:grey;
+    color:grey;
+}
+.fifth-1:hover {
+    margin: 60px 0px 0px 530px;
+    width: 290px;
+    height: 290px;
+    background:#e56b6e;
+    color:white;
+}
+.fifth-2 {
+    margin: 30px 0px 0px 530px;
+    width: 290px;
+    height: 290px;
+    background:grey;
+    color:grey;
+}
+.fifth-2:hover {
+    margin: 30px 0px 0px 530px;
+    width: 290px;
+    height: 290px;
+    background:#e56b6e;
+    color:white;
+}
+.fifth-3 {
+    margin: -646px 0px 0px 850px;
+    width: 290px;
+    height: 290px;
+    background:grey;
+    color:grey;
+}
+.fifth-3:hover {
+    margin: -646px 0px 0px 850px;
+    width: 290px;
+    height: 290px;
+    background:#e56b6e;
+    color:white;
+}
+.fifth-4 {
+    margin: 30px 0px 0px 850px;
+    width: 290px;
+    height: 290px;
+    background:grey;
+    color:grey;
+}
+.fifth-4:hover {
+    margin: 30px 0px 0px 850px;
+    width: 290px;
+    height: 290px;
+    background:#e56b6e;
+    color:white;
+}
+.fifth-5 {
+    margin: -646px 0px 0px 1170px;
+    width: 290px;
+    height: 290px;
+    background:grey;
+    color:grey;
+}
+.fifth-5:hover {
+    margin: -646px 0px 0px 1170px;
+    width: 290px;
+    height: 290px;
+    background:#e56b6e;
+    color:white;
+}
+.fifth-6 {
+    margin: 30px 0px 0px 1170px;
+    width: 290px;
+    height: 290px;
+    background:grey;
+    color:grey;
+}
+.fifth-6:hover {
+    margin: 30px 0px 0px 1170px;
+    width: 290px;
+    height: 290px;
+    background:#e56b6e;
+    color:white;
 }
