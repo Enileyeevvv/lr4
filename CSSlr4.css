@@ -453,3 +453,58 @@ hr {
     background:#e56b6e;
     color:white;
 }
+.sixthz {
+    margin-left: 44%;
+    color: #353535;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 35px;
+}
+.ClientFeedback {
+    background-color: #00b893;
+    height: 5px;
+    width: 260px;
+    margin-top: -10px;
+    margin-left: 44%;
+    opacity: 0.3;
+}
+.circle {
+    margin: 50px 0px 40px 20px;
+    width: 70px; 
+    height: 70px;
+    background: #aaaaaa;
+    border-radius: 50%;
+}
+.textclient {
+    margin: 0px 0px 0px 30px;
+    width: 420px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+.clientname {
+    margin: -100px 0px 0px 100px;
+    font-weight: bold;
+    color:#aaaaaa;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.clientwork {
+    margin: -0px 0px 0px 100px;
+    color: #aaaaaa;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.picclient {
+    margin: -0px 0px 0px 370px;
+}
+.sixth-1 {
+    border:1px solid black;
+    height: 330px;
+    width: 500px;
+    margin: 60px 0px 0px 530px;
+}
+.sixth-2 {
+    border:1px solid black;
+    height: 330px;
+    width: 500px;
+    margin: -332px 0px 0px 1070px;
+}
