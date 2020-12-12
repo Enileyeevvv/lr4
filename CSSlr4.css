@@ -30,7 +30,7 @@
     transition: .3s;
 }
 
-h3 {
+.hello {
     color: #353535;
     margin: 250px 0px 0px 370px;
     font-family: 'Roboto Slab', sans-serif;
@@ -82,21 +82,21 @@ h1 {
     background:black;
 }
 .aboutbutton:hover {
-        background:#00b893;
-        transition: .3s;
+    background:#00b893;
+    transition: .3s;
 }
 .block2 {
     margin: 200px 0px 0px 550px;
     color: #353535;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-hr {
+.hraboutme {
     border: none;
     background-color: #00b893;
     height: 2px;
-    width: 75px;
+    width: 60px;
     margin: 10px 0px 0px 550px;
 }
 
@@ -106,15 +106,15 @@ hr {
     width: 500px;
     color: #353535;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .aboutmefirst {
     border: none;
     background-color: #00b893;
     height: 5px;
-    width: 315px;
-    margin: -6px 0px 0px 550px;
+    width: 380px;
+    margin: -10px 0px 0px 550px;
     opacity: 0.3;
 }
 
@@ -124,15 +124,15 @@ hr {
     width: 710px;
     color: #353535;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .aboutmesecond {
     border: none;
     background-color: #00b893;
     height: 5px;
-    width: 450px;
-    margin: -6px 0px 0px 550px;
+    width: 540px;
+    margin: -10px 0px 0px 550px;
     opacity: 0.3;
 }
 
@@ -141,7 +141,7 @@ hr {
     width: 490px;
     margin: 40px 0px 0px 550px;
     color: #aaaaaa;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .purple {
@@ -476,7 +476,7 @@ hr {
 }
 .textclient {
     margin: 0px 0px 0px 30px;
-    width: 420px;
+    width: 425px;
     font-family: 'Roboto Slab', sans-serif;
     font-size: 14px;
     color: #aaaaaa;
@@ -507,4 +507,95 @@ hr {
     height: 330px;
     width: 500px;
     margin: -332px 0px 0px 1070px;
+}
+.rectangle {
+    margin: 200px 0px 0px 200px;
+    width: 750px;
+    height: 550px;
+    background-color: #828282;
+}
+.ques {
+    margin: -500px 0px 0px 1030px;
+    font-weight: bold;
+    color: #353535;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+}
+.WeGiveSolution {
+    margin: 10px 0px 0px 1030px;
+    background-color: #00b893;
+    height: 2px;
+    width: 55px;
+}
+.contac {
+    margin: 10px 0px 0px 1030px;
+    width: 500px;
+    font-weight: bold;
+    color: #353535;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 29px;
+}
+.question {
+    margin: -10px 0px 0px 1030px;
+    background-color: #00b893;
+    height: 5px;
+    width: 350px;
+    opacity: 0.3;
+}
+.contact {
+    margin: 10px 0px 0px 1030px;
+    width: 500px;
+    font-weight: bold;
+    color: #353535;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 29px;
+}
+.questions {
+    margin: -10px 0px 0px 1030px;
+    background-color: #00b893;
+    height: 5px;
+    width: 475px;
+    opacity: 0.3;
+}
+.form1 {
+    margin: 100px 0px 0px 1030px;
+    width: 230px;
+    height: 35px;
+    border: 1px solid grey;
+    color: #aaaaaa;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.form2 {
+    float: left;
+    margin: -39px 0px 0px 1300px;
+    width: 230px;
+    height: 35px;
+    border: 1px solid grey;
+    color: #aaaaaa;
+    font-family: 'Roboto Slab', sans-serif;
+    display: inline;
+}
+.form3 {
+    margin: 30px 0px 0px 1030px;
+    width: 500px;
+    height: 75px;
+    border: 1px solid grey;
+    color: #aaaaaa;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.greenbuttonsendmessege {
+    font-family: 'Roboto Slab', sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    margin: 30px 0px 0px 1030px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.greenbuttonsendmessege:hover {
+    background:#00b893;
+    transition: .3s;
 }
