@@ -270,6 +270,7 @@ h1 {
     margin: 10vw;
     height: 600px;
     background: #0db996;
+    overflow: hidden;
 }
 .block4 {
     padding-top: 100px;
@@ -285,31 +286,70 @@ h1 {
     margin: -45px 0px 0px 640px;
     opacity: 0.2;
 }
+.leftprogress, .rightprogress {
+    margin-top: 50px;
+    display: inline-block;
+    margin-top: 50px;
+    width: 49.5%;
+    height: 100%;
+}
 .progress-wrapper {
-    margin: 50px 0px 50px 340px;
-    width: 100px;
-    height: 7px;
-    background-color:white;
+    display: inline-block;
+    margin: 40px auto;
+    width: 400px;
+    height: 5px;
+    background-color: rgba(255,255,255,0.3);
+}
+.leftprogress .progress-wrapper {
+    margin-left: 305px
+}
+.rightprogress .progress-wrapper {
+    margin-left: 80px
+}
+.photoshop .progress-state {
+    width: 92%;
+}
+.illustrator .progress-state {
+    width: 82%;
+}
+.AfterEffect .progress-state {
+    width: 97%;
+}
+.HTML .progress-state {
+    width: 90%;
+}
+.CSS .progress-state {
+    width: 85%;
+}
+.Javascript .progress-state {
+    width: 72%;
 }
 .progress-wrapper .handler {
+    float: right;
+    position: relative;
+    top: -3px;
     width: 12px;
     height: 12px;
     border-radius: 12px;
     display: block;
-    background: var(--white);
+    background: white;
 }
 .progress-wrapper .handler::before {
     content: attr(data-state)"%";
     color: white;
+    position: relative;
+    top: -30px;
 }
 .progress-state {
     width: 100px;
-    height: 7px;
+    height: 5px;
     background-color:white;
 }
 .progress-state::before {
     content: attr(data-descr);
     color: white;
+    position: relative;
+    top: -30px;
 }
 .fifthz {
     background: none;
@@ -500,13 +540,13 @@ h1 {
     border:1px solid black;
     height: 330px;
     width: 500px;
-    margin: 60px 0px 0px 530px;
+    margin: 60px 0px 0px 430px;
 }
 .sixth-2 {
     border:1px solid black;
     height: 330px;
     width: 500px;
-    margin: -332px 0px 0px 1070px;
+    margin: -332px 0px 0px 980px;
 }
 .rectangle {
     margin: 200px 0px 0px 200px;
@@ -712,7 +752,7 @@ h1 {
     line-height: 40px;
     list-style-type: none;
     margin: 10px 0px 0px 640px;
-    сolor: #909091
+    сolor: #909091;
     font-family: 'Roboto Slab', sans-serif;
 }
 .endli {
@@ -729,7 +769,7 @@ h1 {
     line-height: 40px;
     list-style-type: none;
     margin: 10px 0px 0px 800px;
-    сolor: #909091
+    сolor: #909091;
     font-family: 'Roboto Slab', sans-serif;
 }
 .endlielement {
