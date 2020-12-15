@@ -599,3 +599,90 @@ h1 {
     background:#00b893;
     transition: .3s;
 }
+.block8z {
+    margin: 100px 0px 0px 0px;;
+    font-weight: bold;
+    color: #353535;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.b8hr {
+    background-color: #00b893;
+    height: 5px;
+    width: 200px;
+    margin: -10px 0px 0px 843px;
+    opacity: 0.3;
+}
+.news {
+    border: 1px solid grey;
+    width: 290px;
+    height: 290;
+    margin: 50px 0px 0px 530px;
+}
+.news1 {
+    border: 1px solid grey;
+    width: 290px;
+    height: 290;
+    margin: -390px 0px 0px 850px;
+}
+.news2 {
+    border: 1px solid grey;
+    width: 290px;
+    height: 290;
+    margin: -390px 0px 0px 1170px;
+}
+.sqfirst {
+    width: 290px;
+    height: 250px;
+    background-color: #828282;
+}
+.profile {
+    margin: 10px 0px 0px 10px;
+}
+.zagolovokone {
+    margin: -22px 0px 0px 30px;
+}
+.calendar {
+    margin: -5px 0px 0px 160px;
+}
+.zagolovoktwo {
+    margin: -18px 0px 0px 210px;
+}
+.eighth {
+    margin: 20px 0px 0px 10px;
+    color: #595959;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.eighttext {
+    margin: 10px 0px 0px 10px;
+    color: #595959;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12px;
+}
+.ssylka {
+    font-weight: bold;
+    margin: 20px 0px 0px 10px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.ssylka:hover {
+    color: #00b893;
+    transition: .3s;
+}
+.picone {
+    margin: 100px 0px 0px 530px;
+}
+.pictwo {
+    margin: -200px 0px 0px 70px;
+}
+.picthree {
+    margin: -200px 0px 0px 70px;
+}
+.picfour {
+    margin: -200px 0px 0px 70px;
+}
+.picfive {
+    margin: -200px 0px 0px 70px;
+}
