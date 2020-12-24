@@ -410,84 +410,84 @@ h1 {
     font-size: 20px;
 }
 .fifth-1 {
-    margin: 60px 0px 0px 530px;
+    float: left;
+    margin: 30px 0px 0px 550px;
     width: 290px;
     height: 290px;
     background:grey;
     color:grey;
 }
 .fifth-1:hover {
-    margin: 60px 0px 0px 530px;
     width: 290px;
     height: 290px;
     background:#e56b6e;
     color:white;
 }
 .fifth-2 {
-    margin: 30px 0px 0px 530px;
+    margin: 330px 0px 0px -290px;
+    float: left;
     width: 290px;
     height: 290px;
     background:grey;
     color:grey;
 }
 .fifth-2:hover {
-    margin: 30px 0px 0px 530px;
     width: 290px;
     height: 290px;
     background:#e56b6e;
     color:white;
 }
 .fifth-3 {
-    margin: -646px 0px 0px 850px;
+    margin: 45px 0px 0px 850px;
+    float: center;
     width: 290px;
     height: 290px;
     background:grey;
     color:grey;
 }
 .fifth-3:hover {
-    margin: -646px 0px 0px 850px;
     width: 290px;
     height: 290px;
     background:#e56b6e;
     color:white;
 }
 .fifth-4 {
-    margin: 30px 0px 0px 850px;
+    margin: -20px 0px 0px 850px;
+    float: center;
     width: 290px;
     height: 290px;
     background:grey;
     color:grey;
 }
 .fifth-4:hover {
-    margin: 30px 0px 0px 850px;
     width: 290px;
     height: 290px;
     background:#e56b6e;
     color:white;
 }
 .fifth-5 {
-    margin: -646px 0px 0px 1170px;
+    margin: -594px 447px 0px 0px;
+    float: right;
     width: 290px;
     height: 290px;
     background:grey;
     color:grey;
 }
 .fifth-5:hover {
-    margin: -646px 0px 0px 1170px;
     width: 290px;
     height: 290px;
     background:#e56b6e;
     color:white;
 }
 .fifth-6 {
-    margin: 30px 0px 0px 1170px;
+    margin: -290px 447px 0px 0px;
+    float: right;
     width: 290px;
     height: 290px;
     background:grey;
     color:grey;
 }
 .fifth-6:hover {
-    margin: 30px 0px 0px 1170px;
     width: 290px;
     height: 290px;
     background:#e56b6e;
